@@ -434,4 +434,4 @@ bot.on('serverNewMember', function(server, user) {
   
 });
 
-bot.login(botconfig.token);
+bot.login(process.env.BOT_TOKEN);
