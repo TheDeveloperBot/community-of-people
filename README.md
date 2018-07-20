@@ -1,5 +1,28 @@
-# community-of-people
-Community Of People Discord Bot!
+## Community
 
-**Community Of People Developers**
-It's New and ez that's all l can say ;-;
+<a href="https://discordbots.org/bot/447044725820620810" >
+  <img src="https://discordbots.org/api/widget/status/447044725820620810.svg" alt="Community Of People™" />
+</a>](https://travis-ci.org/travis-ci/travis-web) !<a href="https://discordbots.org/bot/447044725820620810" >
+  <img src="https://discordbots.org/api/widget/upvotes/447044725820620810.svg" alt="Community Of People™" />
+</a>
+---
+            
+>**Community Of People™** is a all in one bot. It is an **easy-to-use** fun Discord Bot with **HD quality music system** and very useful moderation commands.<br>
+
+***Want to provide feedback or request a feature or you want to chill?*** Come in [Community Of People™ discord server](https://discord.gg/ZY7DbYJ).
+ 
+
+## Features
+- Economy
+- Leveling
+- Coins
+- Utility
+- Music
+- Anime
+- Moderation
+- Fun
+- Memes
+- games
+- giveaways
+- radio
+- soundboard
