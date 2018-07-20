@@ -8,9 +8,6 @@
   <img src="https://discordbots.org/api/widget/lib/447044725820620810.svg" alt="Community Of People™" />
 </a><a href="https://discordbots.org/bot/447044725820620810" >
   <img src="https://discordbots.org/api/widget/owner/447044725820620810.svg" alt="Community Of People™" />
-</a>[Version](https://img.shields.io/badge/version-v1.1.0-brightgreen.svg) <a href="https://discord.gg/HjJCwm5">
-        <img src="https://img.shields.io/discord/433282708337328128.svg?logo=discord"
-            alt="chat on Discord"></a>
             
 >**Community Of People™** is a all in one bot. It is an **easy-to-use** fun Discord Bot with **HD quality music system** and very useful moderation commands. Radio with **HD quality**<br>
 
