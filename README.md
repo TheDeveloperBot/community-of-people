@@ -6,9 +6,11 @@
   <img src="https://discordbots.org/api/widget/upvotes/447044725820620810.svg" alt="Community Of People™" />
 </a><a href="https://discordbots.org/bot/447044725820620810" >
   <img src="https://discordbots.org/api/widget/lib/447044725820620810.svg" alt="Community Of People™" />
+</a><a href="https://discordbots.org/bot/447044725820620810" >
+  <img src="https://discordbots.org/api/widget/owner/447044725820620810.svg" alt="Community Of People™" />
 </a>
             
->**Community Of People™** is a all in one bot. It is an **easy-to-use** fun Discord Bot with **HD quality music system** and very useful moderation commands.<br>
+>**Community Of People™** is a all in one bot. It is an **easy-to-use** fun Discord Bot with **HD quality music system** and very useful moderation commands. Radio with **HD quality**<br>
 
 ***Want to provide feedback or request a feature or you want to chill?*** Come in [Community Of People™ discord server](https://discord.gg/ZY7DbYJ).
  
