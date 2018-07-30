@@ -146,7 +146,7 @@ let coinEmbed = new Discord.RichEmbed()
 .setFooter("you can see your coins bank by doing ?coins","https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Fvideotogif_2018.06.12_19.51.27.gif?1530360190573")
 .setTimestamp()
 
-message.channel.send(coinEmbed)
+message.channel.send(coinEmbed).then(msg => {msg.delete(5000)});
 }
   
   let xpAdd = Math.floor(Math.random() * 7) + 8;
@@ -175,7 +175,7 @@ message.channel.send(coinEmbed)
     .setFooter("you can see your xp/level/rank by doing ?level","https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Fvideotogif_2018.06.12_19.51.27.gif?1530360190573")
     .setTimestamp()
 
-    message.channel.send(lvlup)
+    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
   }
   fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
     if(err) console.log(err)
