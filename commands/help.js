@@ -29,7 +29,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("?hd","**HD music player** \n 10 cmds available.")
   .addField("Support","| [Support Server](https://discord.gg/EvbXSMV) | [Vote](https://discordbots.org/bot/447044725820620810/vote) | [Invite me to your Server](https://discordapp.com/api/oauth2/authorize?client_id=447044725820620810&permissions=8&scope=bot) |")
   .addField("bad words filter on ❌","This will remove all bad word.",false)
-  .addField ("l'm always here to chat with you","``To chat with me all you have to do is put Kim before your message. Ex kim hi or chat with me on DM``")
+  .addField ("l'm always here to chat with you","``To chat with me all you have to do is put Kim before your message. Ex kim hi.")
   .setFooter("If you found a bug please report it using ?bugreport | make a channel name *logging*", "https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2F1527593426949.png?1531314575611")
   
 
