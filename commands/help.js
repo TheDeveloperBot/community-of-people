@@ -15,6 +15,7 @@ module.exports.run = async (bot, message, args) => {
   .addField ("?welcome","**__set up your welcome message channel.__**")
   .addField("?main","**display all the __main__ commands** \n 25 cmds available.", false)
   .addField("?mod","**display all __mods__ commands** \n 9 cmds available.", false)
+  .addField("?sound","**display all __tts__ commands** \n 10 cmds available.", false)
   .addField("?fun", "**display all __fun__ commands** \n 19 cmds available.", false)
   .addField("?time","**display all the __time__ commands** \n 3 cmds available.")
   .addField("?radio","**display all the __radio__ commands** \n 7 cmds available.")
