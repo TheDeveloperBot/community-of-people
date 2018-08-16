@@ -121,65 +121,6 @@ bot.on("message", async message => {
     
       })
     }  
-  if(!coins[message.author.id]){
-  coins[message.author.id] = {
-    coins: 0
-  }
- }
-  
-let coinAmt = Math.floor(Math.random() * 50) + 1;
-let baseAmt = Math.floor(Math.random() * 50) + 1;
-console.log(`🔰 Coin Amt: ${coinAmt} | Base Amt:  ${baseAmt}  |  User:  ${message.author.username}   |  Discord Server name:  ${message.guild.name}`);
-
-if(coinAmt === baseAmt){
-  coins[message.author.id] = {
-    coins: coins[message.author.id].coins + coinAmt
-  };
-fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
-  if (err) console.log(err)
-});
-let coinEmbed = new Discord.RichEmbed()
-.setAuthor(message.author.username)
-.setColor("#0000FF")
-.addField(":money_with_wings:", `${coinAmt} coins added to your bank ${message.author.username}!`)
-.setImage("https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Ftenor.gif?1531500354999")
-.setFooter("you can see your coins bank by doing ?coins","https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Fvideotogif_2018.06.12_19.51.27.gif?1530360190573")
-.setTimestamp()
-
-message.channel.send(coinEmbed).then(msg => {msg.delete(5000)});
-}
-  
-  let xpAdd = Math.floor(Math.random() * 7) + 8;
-  console.log(`XP Added:   ${xpAdd}   |  User:   ${message.author.username}`);
-
-  if(!xp[message.author.id]){
-    xp[message.author.id] = {
-      xp: 0,
-      level: 1
-    };
-  }
-
-
-  let curxp = xp[message.author.id].xp;
-  let curlvl = xp[message.author.id].level;
-  let nxtLvl = xp[message.author.id].level * 300;
-  xp[message.author.id].xp =  curxp + xpAdd;
-  if(nxtLvl <= xp[message.author.id].xp){
-    xp[message.author.id].level = curlvl + 1;
-    let lvlup = new Discord.RichEmbed()
-    .setTitle("Level Up!")
-    .setAuthor(`Keep going ${message.author.username}!`)
-    .setColor(0x000000)
-    .addField("unlock Level", curlvl + 1)
-    .setImage ("https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2FLevel_Up_Logo.gif?1531500641079")
-    .setFooter("you can see your xp/level/rank by doing ?level","https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Fvideotogif_2018.06.12_19.51.27.gif?1530360190573")
-    .setTimestamp()
-
-    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
-  }
-  fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
-    if(err) console.log(err)
-  });
 
   let prefix = botconfig.prefix;
   let messageArray = message.content.split(" ");
