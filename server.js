@@ -8,8 +8,6 @@ const fs = require("fs");
 const time = new Date()
 const rb = '```'
 const randomAnimeWallpapers = require('random-anime-wallpapers')
-let coins = require("./coins.json");
-let xp = require("./xp.json");
 var Cleverbot = require('cleverbot-node')
 Cleverbot = new Cleverbot()
 Cleverbot.configure({botapi: 'CC84lQxZ2T7W_HNqf3yd4ICGFpQ'})
