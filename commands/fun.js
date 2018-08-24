@@ -4,6 +4,7 @@ module.exports.run = async (bot, message, args) => {
    let embed = new Discord.RichEmbed()
   .setTitle("fun")
   .setTimestamp()
+   .addField("?lyrics","fun music mini games")
    .addField("?beautiful","tell someone his beautiful.")
   .addField("?slots", "Roll the slots!")
   .addField("?poke", "Poke a user.")
