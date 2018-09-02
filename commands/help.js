@@ -13,6 +13,7 @@ module.exports.run = async (bot, message, args) => {
   .setDescription(`Thanks you ${message.author} for using me! \n We love the community.`)
   .setThumbnail("https://cdn.glitch.com/f216f59c-fdda-43ec-8a7f-cede07534573%2Fvideotogif_2018.06.12_19.51.27.gif?1530360190573")
   .addField ("?welcome","**__set up your welcome message channel.__**")
+  .addField("?funny","**display all the __funny memes__ commands** \n 20 cmds available.", false)
   .addField("?main","**display all the __main__ commands** \n 25 cmds available.", false)
   .addField("?mod","**display all __mods__ commands** \n 9 cmds available.", false)
   .addField("?sound","**display all __tts__ commands** \n 10 cmds available.", false)
