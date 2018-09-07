@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
   .setTitle(`I am in ${bot.guilds.size} guilds!`)
   .setDescription(`${msg}`)
   .setColor("#ebf442");
-  message.channel.send(embed);
+  message.channel.send(`${msg}`);
 }
 
 module.exports.help = {
